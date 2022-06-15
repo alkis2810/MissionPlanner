@@ -558,7 +558,7 @@
   <data name="&gt;&gt;tabQuick.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tabQuick.Parent" xml:space="preserve">
+ <data name="&gt;&gt;tabQuick.Parent" xml:space="preserve">
     <value>tabControlactions</value>
   </data>
   <data name="&gt;&gt;tabQuick.ZOrder" xml:space="preserve">
@@ -1311,7 +1311,7 @@
   <data name="&gt;&gt;tabActionsSimple.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tabActionsSimple.Parent" xml:space="preserve">
+	<data name="&gt;&gt;tabActionsSimple.Parent" xml:space="preserve">
     <value>tabControlactions</value>
   </data>
   <data name="&gt;&gt;tabActionsSimple.ZOrder" xml:space="preserve">
@@ -1362,7 +1362,7 @@
   <data name="&gt;&gt;tabPagePreFlight.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tabPagePreFlight.Parent" xml:space="preserve">
+	<data name="&gt;&gt;tabPagePreFlight.Parent" xml:space="preserve">
     <value>tabControlactions</value>
   </data>
   <data name="&gt;&gt;tabPagePreFlight.ZOrder" xml:space="preserve">

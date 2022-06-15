@@ -528,10 +528,10 @@ namespace MissionPlanner.GCSViews
             // 
             // tabControlactions
             // 
-            this.tabControlactions.ContextMenuStrip = this.contextMenuStripactionstab;
+            //this.tabControlactions.ContextMenuStrip = this.contextMenuStripactionstab;
             //this.tabControlactions.Controls.Add(this.tabTLogs);
-            this.tabControlactions.Controls.Add(this.tabQuick);
-            this.tabControlactions.Controls.Add(this.tablogbrowse);
+            //this.tabControlactions.Controls.Add(this.tabQuick);
+            //this.tabControlactions.Controls.Add(this.tablogbrowse);
             resources.ApplyResources(this.tabControlactions, "tabControlactions");
             this.tabControlactions.Name = "tabControlactions";
             this.tabControlactions.SelectedIndex = 0;

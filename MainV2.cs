@@ -598,7 +598,7 @@ namespace MissionPlanner
 
                 if (DisplayConfiguration.displayPreFlightTab && !t.TabPages.Contains(FlightData.tabPagePreFlight))
                 {
-                    t.TabPages.Add(FlightData.tabPagePreFlight);
+                   // t.TabPages.Add(FlightData.tabPagePreFlight);
                 }
                 else if (!DisplayConfiguration.displayPreFlightTab && t.TabPages.Contains(FlightData.tabPagePreFlight))
                 {
@@ -607,7 +607,7 @@ namespace MissionPlanner
 
                 if (DisplayConfiguration.displayAdvActionsTab && !t.TabPages.Contains(FlightData.tabActions))
                 {
-                    t.TabPages.Add(FlightData.tabActions);
+                    //t.TabPages.Add(FlightData.tabActions);
                 }
                 else if (!DisplayConfiguration.displayAdvActionsTab && t.TabPages.Contains(FlightData.tabActions))
                 {
@@ -616,7 +616,7 @@ namespace MissionPlanner
 
                 if (DisplayConfiguration.displaySimpleActionsTab && !t.TabPages.Contains(FlightData.tabActionsSimple))
                 {
-                    t.TabPages.Add(FlightData.tabActionsSimple);
+                    //t.TabPages.Add(FlightData.tabActionsSimple);
                 }
                 else if (!DisplayConfiguration.displaySimpleActionsTab &&
                          t.TabPages.Contains(FlightData.tabActionsSimple))
@@ -626,7 +626,7 @@ namespace MissionPlanner
 
                 if (DisplayConfiguration.displayGaugesTab && !t.TabPages.Contains(FlightData.tabGauges))
                 {
-                    t.TabPages.Add(FlightData.tabGauges);
+                    //t.TabPages.Add(FlightData.tabGauges);
                 }
                 else if (!DisplayConfiguration.displayGaugesTab && t.TabPages.Contains(FlightData.tabGauges))
                 {
@@ -635,7 +635,7 @@ namespace MissionPlanner
 
                 if (DisplayConfiguration.displayStatusTab && !t.TabPages.Contains(FlightData.tabStatus))
                 {
-                    t.TabPages.Add(FlightData.tabStatus);
+                    //t.TabPages.Add(FlightData.tabStatus);
                 }
                 else if (!DisplayConfiguration.displayStatusTab && t.TabPages.Contains(FlightData.tabStatus))
                 {
@@ -644,7 +644,7 @@ namespace MissionPlanner
 
                 if (DisplayConfiguration.displayServoTab && !t.TabPages.Contains(FlightData.tabServo))
                 {
-                    t.TabPages.Add(FlightData.tabServo);
+                    //t.TabPages.Add(FlightData.tabServo);
                 }
                 else if (!DisplayConfiguration.displayServoTab && t.TabPages.Contains(FlightData.tabServo))
                 {
@@ -653,7 +653,7 @@ namespace MissionPlanner
 
                 if (DisplayConfiguration.displayScriptsTab && !t.TabPages.Contains(FlightData.tabScripts))
                 {
-                    t.TabPages.Add(FlightData.tabScripts);
+                    //t.TabPages.Add(FlightData.tabScripts);
                 }
                 else if (!DisplayConfiguration.displayScriptsTab && t.TabPages.Contains(FlightData.tabScripts))
                 {
@@ -671,7 +671,7 @@ namespace MissionPlanner
 
                 if (DisplayConfiguration.displayDataflashTab && !t.TabPages.Contains(FlightData.tablogbrowse))
                 {
-                    t.TabPages.Add(FlightData.tablogbrowse);
+                    //t.TabPages.Add(FlightData.tablogbrowse);
                 }
                 else if (!DisplayConfiguration.displayDataflashTab && t.TabPages.Contains(FlightData.tablogbrowse))
                 {
@@ -680,7 +680,7 @@ namespace MissionPlanner
 
                 if (DisplayConfiguration.displayMessagesTab && !t.TabPages.Contains(FlightData.tabPagemessages))
                 {
-                    t.TabPages.Add(FlightData.tabPagemessages);
+                    //t.TabPages.Add(FlightData.tabPagemessages);
                 }
                 else if (!DisplayConfiguration.displayMessagesTab && t.TabPages.Contains(FlightData.tabPagemessages))
                 {
