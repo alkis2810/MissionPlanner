@@ -124,17 +124,17 @@ namespace MissionPlanner.Utilities
 
             //flight Data view
             displayAnenometer = true;
-            displayQuickTab = true;
+            displayQuickTab = false;
             displayPreFlightTab = true;
             displayAdvActionsTab = false;
-            displaySimpleActionsTab = true;
-            displayGaugesTab = true;
+            displaySimpleActionsTab = false;
+            displayGaugesTab = false;
             displayStatusTab = false;
             displayServoTab = false;
             displayScriptsTab = false;
-            displayTelemetryTab = true;
-            displayDataflashTab = true;
-            displayMessagesTab = true;
+            displayTelemetryTab = false;
+            displayDataflashTab = false;
+            displayMessagesTab = false;
 
             //flight plan
             displayRallyPointsMenu = true;
@@ -244,10 +244,10 @@ namespace MissionPlanner.Utilities
             {
                 displayName = DisplayNames.Basic,
                 //MainV2 buttons
-                displaySimulation = true,
+                displaySimulation = false,
                 displayTerminal = false,
-                displayDonate = true,
-                displayHelp = true,
+                displayDonate = false,
+                displayHelp = false,
 
                 //flight Data view
                 displayAnenometer = true,
@@ -255,13 +255,13 @@ namespace MissionPlanner.Utilities
                 displayPreFlightTab = true,
                 displayAdvActionsTab = false,
                 displaySimpleActionsTab = true,
-                displayGaugesTab = true,
+                displayGaugesTab = false,
                 displayStatusTab = false,
                 displayServoTab = false,
                 displayScriptsTab = false,
-                displayTelemetryTab = true,
+                displayTelemetryTab = false,
                 displayDataflashTab = true,
-                displayMessagesTab = true,
+                displayMessagesTab = false,
 
                 //flight plan
                 displayRallyPointsMenu = true,
@@ -271,8 +271,8 @@ namespace MissionPlanner.Utilities
                 displayTextAutoWp = true,
                 displayPoiMenu = true,
                 displayTrackerHomeMenu = true,
-                displayCheckHeightBox = true,
-                displayPluginAutoWp = true,
+                displayCheckHeightBox = false,
+                displayPluginAutoWp = false,
 
                 //initial setup
                 displayInstallFirmware = true,
@@ -326,7 +326,7 @@ namespace MissionPlanner.Utilities
             {
                 displayName = DisplayNames.Advanced,
                 //MainV2 buttons
-                displaySimulation = true,
+                displaySimulation = false,
                 displayTerminal = true,
                 displayDonate = true,
                 displayHelp = true,
@@ -335,15 +335,15 @@ namespace MissionPlanner.Utilities
                 displayAnenometer = true,
                 displayQuickTab = true,
                 displayPreFlightTab = true,
-                displayAdvActionsTab = true,
+                displayAdvActionsTab = false,
                 displaySimpleActionsTab = false,
-                displayGaugesTab = true,
-                displayStatusTab = true,
-                displayServoTab = true,
-                displayScriptsTab = true,
-                displayTelemetryTab = true,
-                displayDataflashTab = true,
-                displayMessagesTab = true,
+                displayGaugesTab = false,
+                displayStatusTab = false,
+                displayServoTab = false,
+                displayScriptsTab = false,
+                displayTelemetryTab = false,
+                displayDataflashTab = false,
+                displayMessagesTab = false,
 
                 //flight plan
                 displayRallyPointsMenu = true,

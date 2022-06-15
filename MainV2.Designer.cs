@@ -148,6 +148,7 @@ namespace MissionPlanner
             this.MenuInitConfig.Margin = new System.Windows.Forms.Padding(0);
             this.MenuInitConfig.Name = "MenuInitConfig";
             this.MenuInitConfig.Click += new System.EventHandler(this.MenuSetup_Click);
+            this.MenuInitConfig.Visible = false;
             // 
             // MenuConfigTune
             // 
@@ -156,6 +157,7 @@ namespace MissionPlanner
             this.MenuConfigTune.Margin = new System.Windows.Forms.Padding(0);
             this.MenuConfigTune.Name = "MenuConfigTune";
             this.MenuConfigTune.Click += new System.EventHandler(this.MenuTuning_Click);
+            this.MenuConfigTune.Visible = false;
             // 
             // MenuSimulation
             // 
@@ -164,6 +166,7 @@ namespace MissionPlanner
             this.MenuSimulation.Margin = new System.Windows.Forms.Padding(0);
             this.MenuSimulation.Name = "MenuSimulation";
             this.MenuSimulation.Click += new System.EventHandler(this.MenuSimulation_Click);
+            this.MenuSimulation.Visible = false;
             // 
             // MenuHelp
             // 
@@ -172,6 +175,7 @@ namespace MissionPlanner
             this.MenuHelp.Margin = new System.Windows.Forms.Padding(0);
             this.MenuHelp.Name = "MenuHelp";
             this.MenuHelp.Click += new System.EventHandler(this.MenuHelp_Click);
+            this.MenuHelp.Visible = false;
             // 
             // MenuConnect
             // 

@@ -562,8 +562,10 @@ namespace MissionPlanner
 
         public void updateLayout(object sender, EventArgs e)
         {
-            MenuSimulation.Visible = DisplayConfiguration.displaySimulation;
-            MenuHelp.Visible = DisplayConfiguration.displayHelp;
+            //MenuSimulation.Visible = DisplayConfiguration.displaySimulation;
+            MenuSimulation.Visible = false;
+            //MenuHelp.Visible = DisplayConfiguration.displayHelp;
+            MenuHelp.Visible = false;
             MissionPlanner.Controls.BackstageView.BackstageView.Advanced = DisplayConfiguration.isAdvancedMode;
 
             // force autohide on
