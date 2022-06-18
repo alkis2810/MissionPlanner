@@ -886,6 +886,7 @@ namespace MissionPlanner.GCSViews
             this.insertSplineWPToolStripMenuItem.Name = "insertSplineWPToolStripMenuItem";
             resources.ApplyResources(this.insertSplineWPToolStripMenuItem, "insertSplineWPToolStripMenuItem");
             this.insertSplineWPToolStripMenuItem.Click += new System.EventHandler(this.insertSplineWPToolStripMenuItem_Click);
+            this.insertSplineWPToolStripMenuItem.Visible = false;
             // 
             // loiterToolStripMenuItem
             // 

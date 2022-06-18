@@ -2353,6 +2353,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GCSViews\FlightPlanner.resx">
       <DependentUpon>FlightPlanner.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="GCSViews\FlightPlanner.ar.resx">
       <DependentUpon>FlightPlanner.cs</DependentUpon>
@@ -2371,6 +2372,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GCSViews\FlightPlanner.id-ID.resx">
       <DependentUpon>FlightPlanner.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="GCSViews\FlightPlanner.it-IT.resx">
       <DependentUpon>FlightPlanner.cs</DependentUpon>

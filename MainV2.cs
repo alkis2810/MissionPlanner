@@ -662,7 +662,7 @@ namespace MissionPlanner
 
                 if (DisplayConfiguration.displayTelemetryTab && !t.TabPages.Contains(FlightData.tabTLogs))
                 {
-                    t.TabPages.Add(FlightData.tabTLogs);
+                    //t.TabPages.Add(FlightData.tabTLogs);
                 }
                 else if (!DisplayConfiguration.displayTelemetryTab && t.TabPages.Contains(FlightData.tabTLogs))
                 {
@@ -671,7 +671,7 @@ namespace MissionPlanner
 
                 if (DisplayConfiguration.displayDataflashTab && !t.TabPages.Contains(FlightData.tablogbrowse))
                 {
-                    //t.TabPages.Add(FlightData.tablogbrowse);
+                    t.TabPages.Add(FlightData.tablogbrowse);
                 }
                 else if (!DisplayConfiguration.displayDataflashTab && t.TabPages.Contains(FlightData.tablogbrowse))
                 {
